@@ -36,6 +36,8 @@ This project was bootstrapped with [Lisk SDK](https://github.com/LiskHQ/lisk-sdk
 ./bin/run start
 ```
 
+Note: To connect to the network created for hackathon you can use `https://hackathonnet-seed-01.liskdev.net/` node. You can update config file, network `{ seedPeers: [{"ip": "hackathonnet-seed-01.liskdev.net", "port": 7667 }] }`.
+
 #### Enable plguins and RPC API using flags
 
 You can use either `--api-ipc` to enable IPC API, or `--api-http` to enable HTTP API or `--api-ws` to enable WS API or you can use all to enable access to all the modes of communication.
