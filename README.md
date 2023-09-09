@@ -20,10 +20,22 @@ Lisk SDK documentation: https://lisk.com/documentation/lisk-sdk/v6/index.html
 
 This project was bootstrapped with [Lisk SDK](https://github.com/LiskHQ/lisk-sdk)
 
+1. `git clone https://github.com/LiskHQ/lisk-hackathon.git`
+2. `cd lisk-hackathon`
+3. `npm install && npm run build`
+
 ### Start a node
 
 ```
 ./bin/run start
+```
+
+#### Enable plguins and RPC API using flags
+
+You can use either `--api-ipc` to enable IPC API, or `--api-http` to enable HTTP API or `--api-ws` to enable WS API or you can use all to enable access to all the modes of communication.
+
+```
+./bin/run start --api-ipc --api-http --enable-dashboard-plugin
 ```
 
 ### Add a new module
