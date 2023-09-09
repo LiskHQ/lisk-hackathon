@@ -1,22 +1,22 @@
-## Lisk Hackathon 2023
+# Lisk Hackathon 2023
 
 This readme will cover some details for [Lisk Hackathon 2023](https://hackathon.lisk.com/).
 
-### Lisk SDK Version
+## Lisk SDK Version
 
 We are going to use Lisk SDK version [6.1.0-beta.1](https://github.com/LiskHQ/lisk-sdk/releases/tag/v6.1.0-beta.1)
 
-### Lisk Commander Version
+## Lisk Commander Version
 
 We are going to use the Lisk Commander version [6.1.0-beta.1](https://www.npmjs.com/package/lisk-commander/v/6.1.0-beta.1)
 
-### Resources
+## Resources
 
 Along with a series of presentations during the hackathon sharing knowledge including Live demos and code walk-throughs.
 
 Lisk SDK documentation: https://lisk.com/documentation/lisk-sdk/v6/index.html
 
-# Getting Started with Lisk Blockchain Client
+## Getting Started with Lisk Blockchain Client
 
 This project was bootstrapped with [Lisk SDK](https://github.com/LiskHQ/lisk-sdk)
 
