@@ -6,7 +6,7 @@ This readme will cover some details for [Lisk Hackathon 2023](https://hackathon.
 
 We are going to use Lisk SDK version [6.1.0-beta.1](https://github.com/LiskHQ/lisk-sdk/releases/tag/v6.1.0-beta.1)
 ```
-npm i lisk-sdk
+npm i lisk-sdk@6.1.0-beta.1
 ```
 
 ## Lisk Commander Version
