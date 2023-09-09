@@ -80,7 +80,7 @@ You can learn more in the [documentation](https://lisk.com/documentation/lisk-sd
 
 ## Bonus content
 
-This section is for those who have already created a sidechain application and want to have cross-chain functionality. If you want to dive deep into what Lisk Interoperability is you can visit this blog https://lisk.com/blog/posts/what-blockchain-interoperability.
+This section is for those who have already created a sidechain application and want to have cross-chain functionality. If you want to dive deep into what Lisk Interoperability is you can visit this blog [What is blockchain interoperability?](https://lisk.com/blog/posts/what-blockchain-interoperability). You can also use [example folder on Lisk SDK repo](https://github.com/LiskHQ/lisk-sdk/tree/v6.1.0-beta.1/examples/interop) to run a setup of 2 mainchain nodes and 2 different sidechain nodes. 
 
 First, make your existing module interoperable or create a new interoperable module from scratch.
 
