@@ -5,6 +5,7 @@ This readme will cover some details for [Lisk Hackathon 2023](https://hackathon.
 ## Lisk SDK Version
 
 We are going to use Lisk SDK version [6.1.0-beta.1](https://github.com/LiskHQ/lisk-sdk/releases/tag/v6.1.0-beta.1)
+
 ```
 npm i lisk-sdk@6.1.0-beta.1
 ```
@@ -12,6 +13,7 @@ npm i lisk-sdk@6.1.0-beta.1
 ## Lisk Commander Version
 
 We are going to use the Lisk Commander version [6.1.0-beta.1](https://www.npmjs.com/package/lisk-commander/v/6.1.0-beta.1)
+
 ```
 npm i -g lisk-commander@6.1.0-beta.1
 ```
@@ -36,7 +38,9 @@ This project was bootstrapped with [Lisk SDK](https://github.com/LiskHQ/lisk-sdk
 ./bin/run start
 ```
 
-Note: To connect to the network created for hackathon you can use `https://hackathonnet-seed-01.liskdev.net/` node. You can update config file, network `{ seedPeers: [{"ip": "hackathonnet-seed-01.liskdev.net", "port": 7667 }] }`.
+**Note:** To connect to the network created for hackathon you can use `https://hackathonnet-seed-01.liskdev.net/` node. You can update config file, network `{ seedPeers: [{"ip": "hackathonnet-seed-01.liskdev.net", "port": 7667 }] }`.
+
+**Using docker:** Run `docker build -t lisk-hackathon .` and `docker run --name hackathon123 -it lisk-hackathon`
 
 #### Enable plguins and RPC API using flags
 
